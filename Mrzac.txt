@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mr Zack | Multi Service Expert</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">Mr Zack</div>
+
+<nav id="nav">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="menu" onclick="toggleMenu()">
+<i class="fas fa-bars"></i>
+</div>
+
+</header>
+
+<section class="hero" id="home">
+
+<h1>Hi, I'm <span>Mr Zack</span></h1>
+
+<p>Professional Web Developer & Multi-Service Expert</p>
+
+<div class="hero-buttons">
+<a href="#services" class="btn">View Services</a>
+<a href="#contact" class="btn">Contact Me</a>
+</div>
+
+</section>
+
+<section class="about" id="about">
+
+<h2>About Me</h2>
+
+<p>
+I help businesses and individuals build modern websites and fix technical
+problems. I specialize in clean web design, responsive websites and
+technical solutions.
+</p>
+
+<div class="about-list">
+
+<div>Web Development</div>
+<div>Website Design</div>
+<div>Bug Fixing</div>
+<div>Website Setup</div>
+<div>Technical Support</div>
+
+</div>
+
+</section>
+
+<section class="services" id="services">
+
+<h2>My Services</h2>
+
+<div class="service-container">
+
+<div class="service-card">
+<i class="fas fa-code"></i>
+<h3>Website Development</h3>
+</div>
+
+<div class="service-card">
+<i class="fas fa-palette"></i>
+<h3>Website Design</h3>
+</div>
+
+<div class="service-card">
+<i class="fas fa-wrench"></i>
+<h3>Website Fixing</h3>
+</div>
+
+<div class="service-card">
+<i class="fas fa-file"></i>
+<h3>Landing Page Creation</h3>
+</div>
+
+<div class="service-card">
+<i class="fas fa-tools"></i>
+<h3>Website Maintenance</h3>
+</div>
+
+<div class="service-card">
+<i class="fas fa-search"></i>
+<h3>SEO Setup</h3>
+</div>
+
+</div>
+
+</section>
+
+<section class="portfolio" id="portfolio">
+
+<h2>Portfolio</h2>
+
+<div class="portfolio-grid">
+
+<div class="portfolio-card">
+<img src="https://picsum.photos/400/250?1">
+<p>Business Website</p>
+</div>
+
+<div class="portfolio-card">
+<img src="https://picsum.photos/400/250?2">
+<p>Landing Page</p>
+</div>
+
+<div class="portfolio-card">
+<img src="https://picsum.photos/400/250?3">
+<p>Portfolio Website</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="skills" id="skills">
+
+<h2>Skills</h2>
+
+<div class="skill">
+<p>HTML</p>
+<div class="bar"><span style="width:90%"></span></div>
+</div>
+
+<div class="skill">
+<p>CSS</p>
+<div class="bar"><span style="width:85%"></span></div>
+</div>
+
+<div class="skill">
+<p>JavaScript</p>
+<div class="bar"><span style="width:75%"></span></div>
+</div>
+
+<div class="skill">
+<p>Responsive Design</p>
+<div class="bar"><span style="width:80%"></span></div>
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Contact Me</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<textarea placeholder="Message"></textarea>
+
+<button class="btn">Send Message</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© Mr Zack</p>
+
+<div class="social">
+
+<i class="fab fa-facebook"></i>
+<i class="fab fa-linkedin"></i>
+<i class="fab fa-github"></i>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
